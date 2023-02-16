@@ -43,7 +43,7 @@ document.getElementById('final-balance').innerHTML = saldo;
 
 for (var i = 0; i < earningsList.length; i++) {
   var li = document.createElement('li');
-  li.innerText = `${earningsList[i].description}: R$ ${expensesList[i].value}`;
+  li.innerText = `${earningsList[i].description}: R$ ${earningsList[i].value}`;
 
   document.getElementById('earnings-list').appendChild(li);
 }
